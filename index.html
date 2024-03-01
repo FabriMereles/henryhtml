@@ -1,60 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML y CSS</title>
+    <link rel="stylesheet" href="./estilos.css">
 </head>
 <body>
-    <header>
-        <h1>
+    <header class="main-header">
+        <h1 class="titulo">
             Los 3 instrumentos mas utilizados
         </h1>
     </header>
-    <img src="instrumentos.jpg">
+    <img src="instrumentos.jpg" alt="instrum" id="imagenes">
+    
     <main>
-        <section>
-            <article>
+        <section class="instument-section">
+            <article class="instrument-article">
                 <div> 
-                    <h2>
+                    <h2 class="instrument-name">
                         Guitarra:
                     </h2>    
-                    <p>La guitarra es un instrumento musical de la familia de los cordófonos, es decir los instrumentos que producen su sonido al hacer vibrar las cuerdas.
+                    <p >La guitarra es un instrumento musical de la familia de los cordófonos, es decir los instrumentos que producen su sonido al hacer vibrar las cuerdas.
                     </p>
                 </div>
                     
             </article>
-            <hr/>
-            <article>
+            
+            <article class="instrument-article">
                 <div>
-                    <h2>
+                    <h2 class="instrument-name">
                         Piano:
                     </h2>
-                    <p>
+                    <p class="instrument-description"> 
                         El piano es un instrumento musical armónico, clasificado como instrumento de cuerda percutida por el sistema de clasificación tradicional, y según la clasificación de Hornbostel-Sachs es un cordófono simple. El músico que toca el piano se denomina pianista.
-                    </p>
+                    </p >
                 </div>
                 </article>
-                <hr/>
-                <article>
+                
+                <article class="instrument-article">
                     <div>
 
-                        <h2>
+                        <h2 class="instrument-name">
                             Bateria
                         </h2>
-                    </div>
-                    <p>
+                    
+                    <p class="instrument-description">
                         La batería es un conjunto de instrumentos musicales de percusión usado por muchas agrupaciones musicales. En algunos países, el término «batería» también se refiere al músico que toca estos instrumentos, al igual que el término «baterista», ambos equivalentes.​​
-                    </p>
+                    </p class="instrument-description">
+                </div>
                 </article>
         </section>
     </main>
-                <hr/>
-        <footer>
+                
+        <footer class="main-footer">
             <h2>
                 Aqui tienes un enlace para buscar instrumentos y sus respectivos precios
             </h2>
-            <a href="./precios.html" target="_blank"> Precios aqui</a>
-        </footer>
+            <ol class="enlaces">
+
+                <li class="enlaces">
+                    <a href="https://listado.mercadolibre.com.ar/guitarras#D[A:guitarras]"> Guitarras</a>
+                </li>
+                <li class="enlaces"><a href="https://listado.mercadolibre.com.ar/pianos#D[A:pianos]">pianos</a>
+                </li>
+                <li class="enlaces">
+                    <a href="https://listado.mercadolibre.com.ar/baterias-instrumento#D[A:baterias%20instrumento]"> baterias</a>
+                </li>
+                
+            </ol>
+        </footer >
     </body>
     </html>
